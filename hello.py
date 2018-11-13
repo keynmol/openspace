@@ -1,5 +1,13 @@
 from microbit import *
 
-WORKER_ID=0
+# Parameters definition
+WORKER_ID=""
+ACCURACY=""
+
+
+# Program starts here
+
+worker_id = int(WORKER_ID)
+accuracy = int(ACCURACY)
 
 display.show(WORKER_ID)
